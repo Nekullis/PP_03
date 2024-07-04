@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\AI">
+      <UniqueIdentifier>{59c15753-5d28-4979-8007-026aed5c1df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application">
+      <UniqueIdentifier>{033ed737-5436-42fa-a710-5c904d37c16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{bced2d47-8ac5-452c-b474-9eb5da5f9bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component">
+      <UniqueIdentifier>{9cd73c6c-e7fc-41ee-9cb1-5f2dc729d987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode">
+      <UniqueIdentifier>{8ae50ded-4a30-4211-a21c-b7d7a06deeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AI">
+      <UniqueIdentifier>{a53fbe19-8e49-487a-b92d-2f72379e5d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application">
+      <UniqueIdentifier>{85d04115-5075-43ff-94e4-b7837363d137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{dcc7ff22-4c57-495e-8134-a0a6346a74e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component">
+      <UniqueIdentifier>{3914f72c-8c1e-4f02-9809-5e3b0575b5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode">
+      <UniqueIdentifier>{03ed6d6a-b345-4ab6-aacf-ccd9206dc2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Collision">
+      <UniqueIdentifier>{cf94bd4c-ab69-4276-b45b-8c750563b371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\Collision">
+      <UniqueIdentifier>{16011b5b-a012-4ae2-b8cb-441ccc43e23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{3c14ba6b-3d67-4d6d-8bc0-c48e82ee7442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{425b0b30-fd0b-4c90-8344-ba59ea72dd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Draw">
+      <UniqueIdentifier>{f2efbe70-aaf5-4d56-8708-fc0b0030ca9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\Draw">
+      <UniqueIdentifier>{2f12d2de-22ab-45e4-9932-b8b0d4e40c26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AIAttack.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIDeath.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIState.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIVigilance.cpp">
+      <Filter>ソース ファイル\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ApplicationGlobal.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ApplicationMain.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Character.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MoveComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Stage.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGame.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTitle.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CameraComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AIComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyMob.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AttackState.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameCollision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionComponent.cpp">
+      <Filter>ソース ファイル\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CapsuleColComponent.cpp">
+      <Filter>ソース ファイル\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AttackManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionManager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Weapon.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TargetMaker.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WeaponColComponent.cpp">
+      <Filter>ソース ファイル\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DrawBillboardComponent.cpp">
+      <Filter>ソース ファイル\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DrawComponent.cpp">
+      <Filter>ソース ファイル\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DrawPolygonComponent.cpp">
+      <Filter>ソース ファイル\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PolygonEffect.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DamageEffect.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameClear.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameOver.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\AIAttack.h">
+      <Filter>ヘッダー ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AIDeath.h">
+      <Filter>ヘッダー ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AIState.h">
+      <Filter>ヘッダー ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AIVigilance.h">
+      <Filter>ヘッダー ファイル\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ApplicationGlobal.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ApplicationMain.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Character.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Stage.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MoveComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGame.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTitle.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CameraComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AIComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyMob.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AttackState.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameCollision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CollisionComponent.h">
+      <Filter>ヘッダー ファイル\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CapsuleColComponent.h">
+      <Filter>ヘッダー ファイル\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AttackManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CollisionManager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Weapon.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TargetMaker.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WeaponColComponent.h">
+      <Filter>ヘッダー ファイル\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DrawBillboardComponent.h">
+      <Filter>ヘッダー ファイル\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DrawComponent.h">
+      <Filter>ヘッダー ファイル\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DrawPolygonComponent.h">
+      <Filter>ヘッダー ファイル\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PolygonEffect.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DamageEffect.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameClear.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameOver.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
