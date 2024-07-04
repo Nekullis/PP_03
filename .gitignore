@@ -397,3 +397,15 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 DxLib/
+
+# Resource Files
+*.png
+*.mv1
+*.wav
+*.mp3
+*.jpeg
+*.jpg
+*.JPEG
+*.fbx
+*.efkefc
+*.efk
